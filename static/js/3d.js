@@ -41,4 +41,4 @@ function createBarrel() {
     return barrel;
 }
 
-document.body.appendChild(createBarrel());
+$(document).ready(function(){document.body.appendChild(createBarrel());})
